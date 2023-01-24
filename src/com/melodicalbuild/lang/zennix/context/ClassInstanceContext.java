@@ -1,5 +1,8 @@
 package com.melodicalbuild.lang.zennix.context;
 
+import com.melodicalbuild.lang.zennix.expression.value.ClassValue;
+import com.melodicalbuild.lang.zennix.expression.value.ThisValue;
+
 import java.util.Stack;
 
 /**

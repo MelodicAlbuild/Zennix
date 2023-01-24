@@ -1,6 +1,7 @@
 package com.melodicalbuild.lang.zennix.statement.loop;
 
 import com.melodicalbuild.lang.zennix.expression.Expression;
+import com.melodicalbuild.lang.zennix.expression.value.LogicalValue;
 import com.melodicalbuild.lang.zennix.expression.value.Value;
 import lombok.RequiredArgsConstructor;
 

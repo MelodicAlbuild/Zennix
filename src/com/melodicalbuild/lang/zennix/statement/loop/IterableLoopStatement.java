@@ -2,7 +2,13 @@ package com.melodicalbuild.lang.zennix.statement.loop;
 
 import com.melodicalbuild.lang.zennix.context.MemoryContext;
 import com.melodicalbuild.lang.zennix.exception.ExecutionException;
+import com.melodicalbuild.lang.zennix.expression.Expression;
+import com.melodicalbuild.lang.zennix.expression.VariableExpression;
+import com.melodicalbuild.lang.zennix.expression.value.IterableValue;
+import com.melodicalbuild.lang.zennix.expression.value.Value;
 import lombok.RequiredArgsConstructor;
+
+import java.util.Iterator;
 
 @RequiredArgsConstructor
 public class IterableLoopStatement extends AbstractLoopStatement {

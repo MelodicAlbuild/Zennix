@@ -1,6 +1,10 @@
 package com.melodicalbuild.lang.zennix.expression;
 
 import com.melodicalbuild.lang.zennix.exception.SyntaxException;
+import com.melodicalbuild.lang.zennix.expression.operator.*;
+import com.melodicalbuild.lang.zennix.expression.value.LogicalValue;
+import com.melodicalbuild.lang.zennix.expression.value.NumericValue;
+import com.melodicalbuild.lang.zennix.expression.value.TextValue;
 import com.melodicalbuild.lang.zennix.token.Token;
 import com.melodicalbuild.lang.zennix.token.TokenType;
 import com.melodicalbuild.lang.zennix.token.TokensStack;
@@ -11,6 +15,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Stack;
+
+import static com.melodicalbuild.lang.zennix.expression.value.NullValue.NULL_INSTANCE;
+import static com.melodicalbuild.lang.zennix.expression.value.ThisValue.THIS_INSTANCE;
 
 public class ExpressionReader {
     private final Stack<Expression> operands;

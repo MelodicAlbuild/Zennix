@@ -8,6 +8,7 @@ import com.melodicalbuild.lang.zennix.context.definition.ClassDefinition;
 import com.melodicalbuild.lang.zennix.context.definition.DefinitionContext;
 import com.melodicalbuild.lang.zennix.context.definition.DefinitionScope;
 import com.melodicalbuild.lang.zennix.context.definition.FunctionDefinition;
+import com.melodicalbuild.lang.zennix.expression.value.NullValue;
 import com.melodicalbuild.lang.zennix.expression.value.Value;
 import com.melodicalbuild.lang.zennix.expression.value.ClassValue;
 import com.melodicalbuild.lang.zennix.statement.FunctionStatement;

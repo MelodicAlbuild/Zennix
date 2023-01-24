@@ -1,5 +1,6 @@
 package com.melodicalbuild.lang.zennix.context;
 
+import com.melodicalbuild.lang.zennix.expression.value.NullValue;
 import com.melodicalbuild.lang.zennix.expression.value.Value;
 
 import java.util.HashMap;

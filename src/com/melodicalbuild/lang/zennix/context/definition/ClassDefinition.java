@@ -1,5 +1,6 @@
 package com.melodicalbuild.lang.zennix.context.definition;
 
+import com.melodicalbuild.lang.zennix.statement.ClassStatement;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

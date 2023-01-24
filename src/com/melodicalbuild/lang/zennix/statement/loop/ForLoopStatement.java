@@ -1,6 +1,13 @@
 package com.melodicalbuild.lang.zennix.statement.loop;
 
 import com.melodicalbuild.lang.zennix.context.MemoryContext;
+import com.melodicalbuild.lang.zennix.expression.Expression;
+import com.melodicalbuild.lang.zennix.expression.VariableExpression;
+import com.melodicalbuild.lang.zennix.expression.operator.AdditionOperator;
+import com.melodicalbuild.lang.zennix.expression.operator.LessThanOperator;
+import com.melodicalbuild.lang.zennix.expression.value.LogicalValue;
+import com.melodicalbuild.lang.zennix.expression.value.NumericValue;
+import com.melodicalbuild.lang.zennix.expression.value.Value;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

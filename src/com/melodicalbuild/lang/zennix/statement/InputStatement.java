@@ -1,6 +1,9 @@
 package com.melodicalbuild.lang.zennix.statement;
 
 import com.melodicalbuild.lang.zennix.context.MemoryContext;
+import com.melodicalbuild.lang.zennix.expression.value.LogicalValue;
+import com.melodicalbuild.lang.zennix.expression.value.NumericValue;
+import com.melodicalbuild.lang.zennix.expression.value.TextValue;
 import com.melodicalbuild.lang.zennix.expression.value.Value;
 import com.melodicalbuild.lang.zennix.token.TokenType;
 import lombok.Getter;

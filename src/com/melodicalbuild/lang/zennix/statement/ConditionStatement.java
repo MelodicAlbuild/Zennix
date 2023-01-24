@@ -3,6 +3,7 @@ package com.melodicalbuild.lang.zennix.statement;
 import com.melodicalbuild.lang.zennix.context.MemoryContext;
 import com.melodicalbuild.lang.zennix.exception.ExecutionException;
 import com.melodicalbuild.lang.zennix.expression.Expression;
+import com.melodicalbuild.lang.zennix.expression.value.LogicalValue;
 import com.melodicalbuild.lang.zennix.expression.value.Value;
 import lombok.Getter;
 
